@@ -29,9 +29,10 @@
       "&ring=" + encodeURIComponent(document.querySelector("#ring").value) +
       "&build=" + encodeURIComponent(document.querySelector("#build").value) +
       "&sku=" + encodeURIComponent(document.querySelector("#sku").value) +
-      "&flight=Mainline&type=Production",
+      "&flight=Mainline" +
+      "&type=Production",
     {mode:"no-cors"})
-    .then(data => {location.href = "./"});
+    .then(data => {location.href = "./builds.php"});
   };
 </script>
 <?php include("footer.php"); ?>
