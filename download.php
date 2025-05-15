@@ -6,6 +6,7 @@
     <th>Name</th>
     <th>URL</th>
   </tr>
+</table>
 <script>
   (async function() {
     let files = await fetch("./json-api/get.php" +
