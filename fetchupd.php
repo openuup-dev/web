@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <h1>Fetch a build</h1>
-<p>This page is for advanced users. The page will refresh eventually, and if successful the new build will show.</p>
+<p>This page is for advanced users. The page will refresh after some time, and if successful the new build will show.</p>
 <select id="arch">
   <option value="all">All architectures</option>
   <option value="amd64">AMD64</option>
