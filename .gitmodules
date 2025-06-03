@@ -1,3 +1,3 @@
 [submodule "json-api"]
 	path = json-api
-	url = https://somegit.dev/openuup/json-api.git
+	url = https://github.com/openuup-dev/json-api.git
