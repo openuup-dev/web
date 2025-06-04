@@ -6,6 +6,11 @@
     let builds = await fetch("./json-api/listid.php");
     builds = await builds.json();
     builds = builds.response.builds;
+    if (builds.length == 0) {
+      let noBuildsElement = document.createElement("li");
+      noBuildsElement.textContent = "There are no builds yet.";
+      document.querySelector("#existing-builds").appendChild(noBuildsElement);
+    }
     builds.forEach((build) => {
       let buildElement = document.createElement("li");
       buildElement.textContent = build.title + " [" + build.arch + "] [";
