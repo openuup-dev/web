@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <h1>Download</h1>
-<p>Below is a table of all of the files in the build you selected. It can take some time to load.</p>
+<p>Below is a list of all of the files in the build you selected. It can take some time to load.</p>
 <ul id="download"></ul>
 <script>
   (async function() {
